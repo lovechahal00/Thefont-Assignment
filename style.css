@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.lyrics-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6f00;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+
+.lyrics-container:nth-child(odd) {
+  background-color: #0000;
+}
+
+.lyrics-container:nth-child(even) {
+  background-color: #ff0000;
+}
+
+.lyrics-container:nth-child(3) {
+  background-color: #C0C0C0;
+}
+
+.lyrics-container:nth-child(5) {
+  background-color: #C0C0C0;
+}
+
+.lyrics-container h2 {
+  color:#000000 ;
+  text-transform:uppercase;
+}
+
+.lyrics-container p {
+  color: #f9f9f9;
+  font-style: italic;
+  font-weight: bold;
+}
